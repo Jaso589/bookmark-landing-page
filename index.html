@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>JASO | Bookmark landing page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <nav class="navbar container">
+      <img src="./images/logo-bookmark.svg" alt="Bookmark">
+      <div class="navs">
+        <div class="logo-mobil">
+          <img src="./images/logo-bookmark-footer.svg" alt="">
+          <button class="btn-close"><img src="./images/icon-close.svg" alt=""></button>
+        </div>
+        <hr>
+        <a href="#">FEATURES</a>
+        <hr>
+        <a href="#">PRICING</a>
+        <hr>
+        <a href="#">CONTACT</a>
+        <hr>
+        <button class="btn btn-red bn-login b-shadow">LOGIN</button>
+      </div>
+      <button class="btn-menu"><img src="./images/icon-hamburger.svg" alt=""></button>
+    </nav>
+  </header>
+  <section class="presentation">
+    <div class="container j-between">
+      <div class="p-text">
+        <h1>A Simple Bookmark Manager</h1>
+        <p class="gray-p">
+          A clean and simple interface to organize your favourite websites. Open a new 
+          browser tab and see your sites load instantly. Try it for free.
+        </p>
+        <button class="btn btn-l btn-blue b-shadow">Get it on Chrome</button>
+        <button class="btn btn-l btn-gray b-shadow">Get it on Firefox</button>
+      </div>
+      <figure>
+        <img src="./images/illustration-hero.svg" alt="">
+      </figure>
+    </div>
+  </section>
+  <section class="features">
+    <div class="container column">
+      <div class="f-text">
+        <h2>Features</h2>
+        <p class="p-gray">
+          Our aim is to make it quick and easy for you to access your favourite websites. 
+          Your bookmarks sync between your devices so you can access them on the go.
+        </p>
+      </div>
+      <div class="f-options">
+        <!-- <input class="input-op" type="radio" id="opt-uno" name="tabs">
+        <label class="label-op" for="opt-uno">Simple Bookmarking</label>
+        <input class="input-op" type="radio" id="opt-dos" name="tabs">
+        <label class="label-op" for="opt-dos">Speedy Searching</label>
+
+        <input class="input-op" type="radio" id="opt-tres" name="tabs">
+        <label class="label-op" for="opt-tres">Easy Sharing</label>
+         -->
+         <hr>
+        <button data-button="button1" class="option-hero border-active" id="op-1">Simple Bookmarking</button>
+        <hr>
+        <button data-button="button2" class="option-hero" id="op-2">Speedy Searching</button>
+        <hr>
+        <button data-button="button3" class="option-hero" id="op-3">Easy Sharing</button>
+        <hr>
+      </div>
+      <div id="heros">
+        <article id="button1" class="hero-res j-between is-active">
+          <figure>
+            <img src="./images/illustration-features-tab-1.svg" alt="">
+          </figure>
+          <div class="p-text">
+            <h2>Bookmark in one click</h2>
+            <p class="p-gray">
+              Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+            </p>
+            <button class="btn btn-blue">More Info</button>
+          </div>
+        </article>
+        <article id="button2" class="hero-res j-between">
+          <figure>
+            <img src="./images/illustration-features-tab-2.svg" alt="">
+          </figure>
+          <div class="p-text">
+            <h2>Intelligent search</h2>
+            <p class="p-gray">
+              Our powerful search feature will help you find saved sites in no time at all. 
+              No need to trawl through all of your bookmarks.
+            </p>
+            <button class="btn btn-blue">More Info</button>
+          </div>
+        </article>
+        <article id="button3" class="hero-res j-between">
+          <figure>
+            <img src="./images/illustration-features-tab-3.svg" alt="">
+          </figure>
+          <div class="p-text">
+            <h2>Share your bookmarks</h2>
+            <p class="p-gray">
+              Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
+            </p>
+            <button class="btn btn-blue">More Info</button>
+          </div>
+        </article>
+      </div>
+      
+    </div>
+  </section>
+
+  <section class="downloads">
+    <div class="container column">
+      <div class="d-text">
+        <h3>Download the extension</h3>
+        <p class="p-gray">
+          We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to prioritize.
+        </p>
+      </div>
+      <div class="extensions">
+        <div class="card">
+          <img src="./images/logo-chrome.svg" alt="Chrome">
+          <h4>Add to Chrome</h4>
+          <p class="p-gray">Minimum version 62</p>
+          <hr>
+          <button class="btn btn-l btn-blue">Add & Install Extension</button>
+        </div>
+        <div class="card">
+          <img src="./images/logo-firefox.svg" alt="firefox">
+          <h4>Add to Firefox</h4>
+          <p class="p-gray">Minimum version 55</p>
+          <hr>
+          <button class="btn btn-l btn-blue">Add & Install Extension</button>
+        </div>
+        <div class="card">
+          <img src="./images/logo-opera.svg" alt="opera">
+          <h4>Add to Opera</h4>
+          <p class="p-gray">Minimum version 46</p>
+          <hr>
+          <button class="btn btn-l btn-blue">Add & Install Extension</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq">
+    <div class="container-sm">
+      <div class="q-text">
+        <h2>Frequently Asked Questions</h2>
+        <p class="p-gray"> Here are some of our FAQs. If you have any other questions you’d like 
+          answered please feel free to email us.</p>
+      </div>
+    </div>
+    <div class="accordions container-sm">
+      <div class="acordion">
+        <input type="checkbox" id="tab-uno" name="tabs">
+        <label for="tab-uno">What is Bookmark?</label>
+        <div class="accordion-content">
+          <p class="p-gray"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+            justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
+        </div>
+      </div>
+      <div class="acordion">
+        <input type="checkbox" id="tab-dos" name="tabs">
+        <label for="tab-dos">How can I request a new browser?</label>
+        <div class="accordion-content">
+          <p class="p-gray">
+            Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+            Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+            Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+          </p>
+        </div>
+      </div>
+      <div class="acordion">
+        <input type="checkbox" id="tab-tres" name="tabs">
+        <label for="tab-tres">Is there a mobile app?</label>
+        <div class="accordion-content">
+          <p class="p-gray">
+            Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed sollicitudin ex et ultricies bibendum.
+          </p>
+        </div>
+      </div>
+      <div class="acordion">
+        <input type="checkbox" id="tab-cuatro" name="tabs">
+        <label for="tab-cuatro">What about other Chromium browsers?</label>
+        <div class="accordion-content">
+          <p class="p-gray">
+            Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+            vitae neque eget nisl gravida pellentesque non ut velit.
+          </p>
+        </div>
+      </div>
+      <button class="btn btn-blue">More info</button>
+      
+    </div>
+  </section>
+  <section class="hero-footer">
+    <p>35,000 + ALREADY JOINED</p>
+    <h2>Stay up-to-date with what we're doing</h2>
+    <div class="forms">
+      <form action="" class="form">
+        <input class="inputMail" type="text" name="inputMail" placeholder="Enter your email address" pattern="[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$">
+        <button class="btn btn-red btn-contact">Contact us</button>
+        <label class="invalid-msg" for="inputMail">Whoops, make sure it's an email</label>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <div class="footer container">
+      <img src="./images/logo-bookmark-footer.svg" alt="logo">
+      <ul>
+        <a href="#">FEATURES</a>
+        <a href="#">PRICING</a>
+        <a href="#">CONTACT</a>
+      </ul>
+      <div class="r-socials">
+        <a href="#"><img src="./images/icon-facebook.svg" alt=""></a>
+        <a href="#"><img src="./images/icon-twitter.svg" alt=""></a>
+      </div>
+    </div>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor.</a>
+      Coded by <a href="https://juan-samaritano.vercel.app/">Juan Samaritano.</a>
+    </p>
+  </footer>
+  <script src="js/options.js"></script>
+  <script src="js/hamburguer.js"></script>
+</body>
+</html>
+<!-- #region 
+Features
+  Pricing
+  Contact
+  Login
+
+  A Simple Bookmark Manager
+
+  
+
+  Get it on Chrome
+  Get it on Firefox
+
+  Features
+
+  
+
+  Simple Bookmarking
+  Speedy Searching
+  Easy Sharing
+
+  Bookmark in one click
+
+  Organize your bookmarks however you like. Our simple drag-and-drop interface 
+  gives you complete control over how you manage your favourite sites.
+
+  More Info
+
+  Intelligent search---
+
+  Our powerful search feature will help you find saved sites in no time at all. 
+  No need to trawl through all of your bookmarks.
+
+  More Info
+
+  Share your bookmarks
+
+  Easily share your bookmarks and collections with others. Create a shareable 
+  link that you can send at the click of a button.
+
+  More Info
+
+  Download the extension
+
+  We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+  got a favourite you’d like us to prioritize.
+
+  Add to Chrome
+  Minimum version 62
+  Add & Install Extension
+
+  Add to Firefox
+  Minimum version 55
+  Add & Install Extension
+
+  Add to Opera
+  Minimum version 46
+  Add & Install Extension
+
+  Frequently Asked Questions
+  
+ 
